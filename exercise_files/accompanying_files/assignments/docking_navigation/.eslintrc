@@ -1,0 +1,43 @@
+{
+    "root": true,
+    "rules": {
+        "linebreak-style": [2, "unix"],
+        "semi": [2, "always"],
+        "quotes": [2, "double", "avoid-escape"],
+        "no-console": 0,
+        "eqeqeq": [2, "allow-null"],
+        /* "no-magic-numbers": 2, */
+        "no-const-assign": 2,
+        "prefer-arrow-callback": 2,
+        /* "prefer-const": 2, */
+        "space-infix-ops": 2,
+        "space-unary-ops": [2, { "words": true, "nonwords": false }],
+        "keyword-spacing": [2, {"before": true, "after": true}],
+        "space-before-blocks": 2,
+        "arrow-spacing": 2,
+        "brace-style": 2,
+        "no-trailing-spaces": 2,
+        "no-spaced-func": 2,
+        "no-mixed-spaces-and-tabs": 2,
+        "indent": [2, 2],
+        "func-style": [2, "expression"],
+        "eol-last": 2,
+        "no-multiple-empty-lines": [2, {"max": 2}],
+        "comma-style": [2, "last"],
+        "comma-spacing": 2,
+        "camelcase": 2,
+        "no-var": 2,
+        /* "max-statements": [2, 10], */
+        "block-spacing": 2,
+        "array-bracket-spacing": [2, "never"],
+        "operator-linebreak": [2, "before"],
+        "strict": [2, "global"],
+        "no-unused-vars": [1, { "vars": "local" }],
+        "no-undef": 0
+    },
+    "env": {
+        "es6": true,
+        "browser": true
+    },
+    "extends": "eslint:recommended"
+}

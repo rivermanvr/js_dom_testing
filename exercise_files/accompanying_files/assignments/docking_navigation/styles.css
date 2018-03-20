@@ -1,0 +1,167 @@
+@import "fontawesome/fontawesome.css";
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+body {
+  font-size: 1em;
+}
+
+a {
+  color: #625f33;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#nav_main {
+  position: absolute;
+  z-index: 4;
+  background-color: rgba(247, 247, 247, 0.85);
+}
+
+#nav_main ul li:hover a,
+#nav_main ul li.a a {
+  color: #fff;
+  background-color: #625f33;
+}
+
+#nav_main ul li a {
+  color: inherit;
+  display: block;
+}
+
+#header_main {
+  position: relative;
+  height: 20rem;
+  background: url("./berlin_prager_platz.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#nav_sub {
+  color: #fff;
+  background-color: #625f33;
+  min-height: .7rem;
+}
+
+#nav_special {
+  font-size: .9rem;
+}
+
+#nav_special ul {
+  text-align: right;
+}
+
+#nav_special ul li {
+  color: #625f33;
+  white-space: nowrap;
+  display: inline-block;
+  padding: .3rem .8rem;
+}
+
+#nav_special ul li a {
+  transition: all 0.15s linear;
+}
+
+#nav_special ul li a:hover {
+  color: #9b1a20;
+}
+
+#nav_special ul li.icon_nav a {
+  display: inline-block;
+  margin-right: .8em;
+}
+
+#nav_special ul li.icon_nav a:last-child {
+  margin-right: 0;
+}
+
+#nav_special ul li.icon_nav a:hover {
+  transform: scale(1.15);
+}
+
+#nav_special ul li.icon_nav a .fa {
+  font-size: 1.4em;
+}
+
+#content {
+  padding: 2rem 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#content h1 {
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.1em;
+  color: #625f33;
+  font-size: 3.5rem;
+}
+
+#content p {
+  line-height: 1.6em;
+}
+
+#nav_main {
+  position: fixed;
+  top: 1.5rem;
+  left: 0;
+  right: 0;
+  padding: 0 1.5rem;
+}
+
+#nav_main ul {
+  display: table !important;
+  border-collapse: collapse;
+}
+
+#nav_main ul li {
+  display: table-cell;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0 .02rem;
+}
+
+#nav_main ul li a {
+  padding: 1.2rem .7rem;
+  transition: all 0.1s linear;
+}
+
+#header_main {
+  height: 40rem;
+}
+
+#nav_special {
+  font-size: 1.1rem;
+}
+
+#nav_special li {
+  padding: .4rem .7rem;
+}
+
+.sticky_nav {
+  position: fixed;
+  right: 0;
+  z-index: 2;
+  left: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav_special.sticky_nav {
+  position: fixed;
+  left: inherit;
+  right: 0;
+  z-index: 3;
+  background-color: rgba(247, 247, 247, 0.85);
+  border-bottom-left-radius: 9px;
+}
